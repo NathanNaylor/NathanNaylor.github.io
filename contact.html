@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
-    <title>Hello, world!</title>
+    <title>Contact</title>
 </head>
 
 <body>
@@ -23,41 +23,40 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
-
-    <div id="aboutContainer" class="container">
+    <div class="container">
         <div class="row">
             <div class="col">
-                <h1>About Me</h1>
-                <hr>
-                <div class="row">
-                    <div class="col-sm-12 col-md">
-                        <img class="img-fluid" id="baldNate" src="./Assets/Images/Bald Right Glasses.png">
-                        <p id="aboutLorem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat distinctio deserunt necessitatibus, quas velit, soluta eveniet, doloribus pariatur quaerat porro odit saepe libero iure quibusdam mollitia recusandae quisquam consequuntur
-                            possimus ea! Suscipit repudiandae qui, minus ut, excepturi doloremque harum cupiditate porro, quaerat alias deleniti voluptatibus? Ullam fugit, repellendus ducimus beatae maxime molestias debitis earum, ratione, mollitia suscipit
-                            unde quis exercitationem illum in repudiandae consectetur omnis. Illum ab necessitatibus, aliquam hic esse magnam labore sapiente quidem itaque consequatur animi? Doloremque laboriosam qui dolorem facere hic nesciunt! Doloribus
-                            voluptatem totam modi quasi delectus dolorem, temporibus neque eos deleniti odio soluta facere! Tempora!
-
-                        </p>
+                <form class="contactForm">
+                    <h1>Contact</h1>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-
 
 
 

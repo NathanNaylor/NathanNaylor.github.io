@@ -1,0 +1,81 @@
+@media screen and (max-width: 640px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: rgb(219, 219, 219);
+    }
+    #baldNate {
+        width: 90%;
+        margin: 5%;
+        float: left;
+    }
+    #aboutLorem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: rgb(219, 219, 219);
+    }
+    #baldNate {
+        width: 90%;
+        margin: 0 5%;
+        float: left;
+    }
+    #aboutLorem {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: rgb(219, 219, 219);
+    }
+    #baldNate {
+        float: left;
+    }
+    #aboutLorem {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    #aboutContainer {
+        width: 95%;
+        background-color: rgb(219, 219, 219);
+    }
+    #baldNate {
+        float: left;
+    }
+    #aboutLorem {
+        width: 100%;
+    }
+}
+
+.container {
+    margin-top: 5%;
+}
+
+#baldNate {
+    margin: 0 15px 15px;
+}
+
+#aboutLorem {
+    width: 100%;
+}
+
+.wrap {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrap h2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(220, 231, 235);
+}
